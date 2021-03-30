@@ -1,0 +1,129 @@
+4x bdUI\modules\maps\core.lua:31: attempt to call method 'SetBackdrop' (a nil value)
+[string "@bdUI\modules\maps\core.lua"]:31: in function `callback'
+[string "@bdUI\lib\bdConfig\bdConfig.lua"]:27: in function `reload'
+[string "@bdUI\lib\bdConfig\bdConfig.lua"]:194: in function `callback'
+[string "@bdUI\lib\bdCallbacks\bdCallbacks.lua"]:56: in function `do_action'
+[string "@bdUI\lib\bdConfig\profiles.lua"]:24: in function <bdUI\lib\bdConfig\profiles.lua:19>
+[string "@bdUI\lib\bdConfig\profiles.lua"]:92: in function <bdUI\lib\bdConfig\profiles.lua:87>
+[string "@bdUI\lib\bdConfig\profiles.lua"]:105: in function <bdUI\lib\bdConfig\profiles.lua:101>
+
+Locals:
+self = <unnamed> {
+ 0 = <userdata>
+ scrollParent = <unnamed> {
+ }
+ parent = <unnamed> {
+ }
+ unselect = <function> defined @bdUI\lib\bdConfig\window.lua:139
+ position_button_frame = <function> defined @bdUI\modules\maps\elements\buttonframe.lua:42
+ _lastel = <unnamed> {
+ }
+ scrollbar = <unnamed> {
+ }
+ options = <table> {
+ }
+ create_objective_tracker = <function> defined @bdUI\modules\maps\elements\objectivetracker.lua:5
+ update_scroll = <function> defined @bdUI\lib\bdConfig\bdConfig.lua:115
+ first = <unnamed> {
+ }
+ reload = <function> defined @bdUI\lib\bdConfig\bdConfig.lua:24
+ _row = 1
+ name = "Maps"
+ ensure_values = <function> defined @bdUI\lib\bdConfig\bdConfig.lua:78
+ get_save = <function> defined @bdUI\lib\bdConfig\bdConfig.lua:134
+ load = <function> defined @bdUI\lib\bdConfig\bdConfig.lua:92
+ create_button_frame = <function> defined @bdUI\modules\maps\elements\buttonframe.lua:197
+ config_callback = <function> defined @bdUI\modules\maps\core.lua:24
+ noScrollbar = true
+ sv_string = "BDUI_SAVE"
+ callback = <function> defined @bdUI\modules\maps\core.lua:24
+ build = <function> defined @bdUI\lib\bdConfig\bdConfig.lua:30
+ link = <unnamed> {
+ }
+ select = <function> defined @bdUI\lib\bdConfig\window.lua:123
+ save = <table> {
+ }
+ config = <table> {
+ }
+ tabs = <table> {
+ }
+ initialize = <function> defined @bdUI\modules\maps\core.lua:10
+ last_frame = <unnamed> {
+ }
+ _rowel = <unnamed> {
+ }
+ create_minimap = <function> defined @bdUI\modules\maps\elements\minimap.lua:6
+ worldmap_coords = <function> defined @bdUI\modules\maps\elements\worldmap.lua:6
+}
+border = 1.422222
+(*temporary) = nil
+(*temporary) = Minimap {
+ 0 = <userdata>
+ SetParent = <function> defined =[C]:-1
+ qa = bdObjectiveFrame {
+ }
+ timer = 0
+ background = Minimap {
+ }
+}
+(*temporary) = <table> {
+ bgFile = "Buttons\WHITE8x8"
+ edgeSize = 1.422222
+ edgeFile = "Buttons\WHITE8x8"
+}
+(*temporary) = "attempt to call method 'SetBackdrop' (a nil value)"
+config = <table> {
+ enabled = false
+ buttonpos = "Top"
+ showtime = true
+ scale = 1.300000
+ buttonframe_tab = "Button Frame"
+ minimap_tab = "Minimap"
+ buttonsize = 28
+ mouseoverbuttonframe = false
+ showconfig = true
+ hideclasshall = false
+ shape = "Rectangle"
+ size = 320
+}
+mod = <unnamed> {
+ 0 = <userdata>
+ scrollParent = <unnamed> {
+ }
+ parent = <unnamed> {
+ }
+ unselect = <function> defined @bdUI\lib\bdConfig\window.lua:139
+ position_button_frame = <function> defined @bdUI\modules\maps\elements\buttonframe.lua:42
+ _lastel = <unnamed> {
+ }
+ scrollbar = <unnamed> {
+ }
+ options = <table> {
+ }
+ create_objective_tracker = <function> defined @bdUI\modules\maps\elements\objectivetracker.lua:5
+ update_scroll = <function> defined @bdUI\lib\bdConfig\bdConfig.lua:115
+ first = <unnamed> {
+ }
+ reload = <function> defined @bdUI\lib\bdConfig\bdConfig.lua:24
+ _row = 1
+ name = "Maps"
+ ensure_values = <function> defined @bdUI\lib\bdConfig\bdConfig.lua:78
+ get_save = <function> defined @bdUI\lib\bdConfig\bdConfig.lua:134
+ load = <function> defined @bdUI\lib\bdConfig\bdConfig.lua:92
+ create_button_frame = <function> defined @bdUI\modules\maps\elements\buttonframe.lua:197
+ config_callback = <function> defined @bdUI\modules\maps\core.lua:24
+ noScrollbar = true
+ sv_string = "BDUI_SAVE"
+ callback = <function> defined @bdUI\modules\maps\core.lua:24
+ build = <function> defined @bdUI\lib\bdConfig\bdConfig.lua:30
+ link = <unnamed> {
+ }
+ select = <function> defined @bdUI\lib\bdConfig\window.lua:123
+ save = <table> {
+ }
+ config = <table> {
+ }
+ tabs = <table> {
+ }
+ initialize = <function> defined @bdUI\modules\maps\core.lua:10
+ last_frame

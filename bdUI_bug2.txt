@@ -1,0 +1,5 @@
+1x [ADDON_ACTION_BLOCKED] AddOn 'bdUI' tried to call the protected function 'MainMenuBar:ClearAllPoints()'.
+[string "@!BugGrabber\BugGrabber.lua"]:519: in function <!BugGrabber\BugGrabber.lua:519>
+[string "=[C]"]: in function `ClearAllPoints'
+[string "@FrameXML\MainMenuBar.lua"]:43: in function `SetPositionForStatusBars'
+[string "@FrameXML\MainMenuBar.lua"]:109: in function <FrameXML\MainMenuBar.lua:65>
